@@ -1,0 +1,25 @@
+# Core API
+fastapi
+uvicorn[standard]
+websockets
+python-multipart
+pydantic
+pydantic-settings
+
+# Text-to-Speech (skip Whisper for now - requires complex setup)
+edge-tts
+pyttsx3
+pygame
+
+# HTTP client
+aiohttp
+requests
+
+# Utilities
+python-dotenv
+loguru
+
+# Note: For full voice recognition, install separately:
+# pip install openai-whisper
+# pip install SpeechRecognition
+# pip install PyAudio
